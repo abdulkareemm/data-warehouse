@@ -20,7 +20,7 @@ export default function About() {
         >
           {/* image */}
           <div className="flex-1" data-aos="zoom-in">
-            <img src={image} alt="image-about" />
+            <img src={image} alt="about" />
           </div>
           {/* text */}
           <div className="flex-1 xl:pr-12">

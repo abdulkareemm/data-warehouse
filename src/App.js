@@ -4,7 +4,7 @@ import React from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 // import components
-import { About, Hero } from "./components";
+import { About, Features, Hero } from "./components";
 
 const App = () => {
   // aos init
@@ -16,6 +16,7 @@ const App = () => {
     <div className="overflow-hidden">
       <Hero />
       <About />
+      <Features />
     </div>
   );
 };
