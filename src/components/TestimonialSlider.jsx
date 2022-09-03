@@ -26,19 +26,21 @@ export default function TestimonialSlider() {
       className="mySwiper"
     >
       {testimonialsData.map((slide, index) => {
-        const { image, name, web, delay, message } = slide;
+        const { image, name, web, message } = slide;
         return (
           <SwiperSlide
             key={index}
             className="bg-white rounded-[20px] border border-accent-primary xl:max-w-[645px] max-h-[330px] 
-    pt-[60px] px-35px] xl:px-[70px] pb-[50px] flex items-start gap-x-[30px] shadow-xl"
+                            pt-[60px] px-35px] xl:px-[70px] pb-[50px] flex items-start gap-x-[30px] shadow-xl"
           >
             {/* avatar image */}
             <img src={image} alt="avatar" />
             {/* text */}
             <div>
               <div className="text-lg text-primary font-bold">{name}</div>
-              <div className="mb-4 font-semibold text-accent-primary ">{web}</div>
+              <div className="mb-4 font-semibold text-accent-primary ">
+                {web}
+              </div>
               <div className="max-w-[340px] ">{message}</div>
             </div>
           </SwiperSlide>

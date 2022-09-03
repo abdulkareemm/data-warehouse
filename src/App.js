@@ -4,7 +4,7 @@ import React from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 // import components
-import { About, Features, Hero, Testimonials } from "./components";
+import { About, Features, Hero, Testimonials, CtaSection } from "./components";
 
 const App = () => {
   // aos init
@@ -18,6 +18,7 @@ const App = () => {
       <About />
       <Features />
       <Testimonials />
+      <CtaSection />
     </div>
   );
 };
