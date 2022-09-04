@@ -6,6 +6,8 @@ export { default as About } from "./About";
 export { default as Features } from "./Features";
 export { default as Testimonials } from "./Testimonials";
 export { default as CtaSection } from "./CtaSection";
+export { default as Footer } from "./Footer";
+
 
 
 
