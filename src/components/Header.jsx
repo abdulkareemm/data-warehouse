@@ -18,7 +18,7 @@ export default function Header() {
         <div className="flex justify-between items-center relative">
           <div className="flex items-center gap-x-[120px]">
             {/* logo */}
-            <a href="/">
+            <a href="#">
               <img src={Logo} alt="logo" />
             </a>
 
