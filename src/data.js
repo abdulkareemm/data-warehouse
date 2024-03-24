@@ -132,9 +132,9 @@ export const ctaData = {
 
 export const footerData = {
   logo: LogoV2,
-  address: 'Warehouse Society, 234 Bahagia Ave Street PRBW 29281',
-  email: 'info@warehouse.project',
-  phone: '1-232-3434 (Main)',
+  address: 'AKM Dev, Uae Dubai - Mirdif Street 37',
+  email: 'eng.kreem.95@gmail.com',
+  phone: '+971 542495425 (Main)',
   list1: [
     {
       name: 'Profile',
@@ -192,6 +192,6 @@ export const footerData = {
 };
 
 export const copyrightData = {
-  text: '© Datawarehouse™, 2020. All rights reserved. Company Registration Number: 21479524.',
+  text: "© AKM-Dev™, 2022. All rights reserved. Company Registration Number: 542495425.",
   icon: <BsChatDotsFill />,
 };
